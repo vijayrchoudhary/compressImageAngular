@@ -1,0 +1,2 @@
+<input type="file" accept=".jpg,.png,.jpeg" id="image-input" (change)="selectFile($event)">
+<br> Original: Size: {{sizeOfOriginalImage}}<img [src]="localUrl"> Compressed: Size: {{sizeOFCompressedImage}}<img [src]="localCompressedURl">
